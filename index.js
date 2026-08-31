@@ -25,10 +25,6 @@ let msSpeed = kmhSpeed / 3;
 console.log(msSpeed);
 console.log(`${kmhSpeed} khm = ${msSpeed} ms`);
 
-//Task 6 (WIP)
-
-// let birthDate = prompt("Dogum Tarixinizi daxil edin (YYY/MMM/DD):");
-
 //Task 7
 let num = 4;
 let power = num ** 5;
@@ -51,14 +47,6 @@ let fullName = "James Howlett";
 let letterCount = fullName.replaceAll(" ", "");
 console.log(letterCount.length);
 
-//Task 11
-let firsttName = "Jean";
-let lasttName = "Grey";
-let fullNamee = `${firsttName} ${lasttName}`;
-let nameSplit = fullNamee.split(" ");
-let initials = `${nameSplit[0][0]}.${nameSplit[1][0]}`;
-console.log(`${initials}`);
-
 //Task 13
 let namee = prompt("Adınızı daxil edin:");
 if (namee) {
@@ -76,3 +64,41 @@ console.log(`toplama`, topp);
 console.log(`cixma`, cix);
 console.log(`vurma`, vur);
 console.log(`bolme`, bol);
+//Task 15
+let numb = 12345;
+let numbe = 98765;
+let tg = numb * numbe;
+
+console.log(tg);
+
+//Task 18
+let fullNamee = prompt("zehmet olmasa Ad ve Soyadinizi daxil edin:");
+let mesaj = "Salam!";
+console.log(mesaj);
+
+//Task 20
+let emekHaqqi = prompt("Emek haqqi meblegini daxil edin :");
+let vergi = (emekHaqqi * 13) / 100;
+let elde = emekHaqqi - vergi;
+console.log(elde);
+
+//Task 23
+let value = 10;
+console.log(value == 10);
+console.log(value <= 10);
+console.log(value != 20);
+
+let valuee = 20;
+console.log(valuee == 10);
+console.log(valuee <= 10);
+console.log(valuee != 20);
+
+//Task 24
+let age = Number(prompt("zehmet olmasa yasinizi daxil edin :"));
+
+if (age < 18) {
+  alert("access denied");
+} else {
+  alert("access granted");
+}
+
