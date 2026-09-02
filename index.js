@@ -109,3 +109,10 @@ if (age < 18) {
   alert("access granted");
 }
 
+
+//Task 26 
+let year = Number(prompt("Zehmet olmasa bir il daxil edin:")); 
+if (year % 4 == 0){
+  console.log("il uzun ildir");}
+else {
+  console.log("il uzun il deyil"); 
