@@ -25,6 +25,12 @@ let msSpeed = kmhSpeed / 3;
 console.log(msSpeed);
 console.log(`${kmhSpeed} khm = ${msSpeed} ms`);
 
+//Task 6
+let bday= prompt("Zehmet olmasa dogum ilinizi qeyd edin:");
+let age = 2026 - bday;
+let days = age * 365 ; 
+console.log(days); 
+
 //Task 7
 let num = 4;
 let power = num ** 5;
