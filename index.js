@@ -38,6 +38,7 @@ let remainer = num % 3;
 console.log(
   `Ededin 5-ci derece quvveti ${power}, 3-e bolunende alinan qaliq ${remainer}`,
 );
+
 //Task 8
 let firstName = "Aytac";
 let lastName = "Mammadzada";
@@ -70,11 +71,11 @@ console.log(`toplama`, topp);
 console.log(`cixma`, cix);
 console.log(`vurma`, vur);
 console.log(`bolme`, bol);
+
 //Task 15
 let numb = 12345;
 let numbe = 98765;
 let tg = numb * numbe;
-
 console.log(tg);
 
 //Task 18
